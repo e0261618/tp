@@ -53,7 +53,6 @@ Format: search {keyword} <br/>
 Example: find lime juice <br/>
 Output: <br/>
 
-	
 ## Saving the data <br/>
 Data/NusExpensesTracker.txt is the directory where you can find the list of transactions being saved. <br/>
 
