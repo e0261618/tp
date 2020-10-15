@@ -58,4 +58,4 @@ Output: <br/>
 Data/NusExpensesTracker.txt is the directory where you can find the list of transactions being saved. <br/>
 
 ### Support or Contact <br/>
-Having trouble with executing the program? Email the team [here](e0261618@u.nus.edu) and We'll help you sort it out. 
+Having trouble with executing the program? Email the team [here](<email>@u.nus.edu) and We'll help you sort it out. 
