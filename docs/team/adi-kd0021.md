@@ -1,4 +1,4 @@
-# Adi-Kesava Das's - Project Portfolio Page
+# Adi-Kesava Das' - Project Portfolio Page
 
 ## Project: NUS Expenses Tracker (NET)
 NET is an app for managing expenses, optimized for use via a Command Line Interface (CLI) while still having the benefits of a Graphical User Interface (GUI).
@@ -9,24 +9,24 @@ NET is an app for managing expenses, optimized for use via a Command Line Interf
 
 * New Feature: User Interface (UI)([#14](https://github.com/AY2021S1-TIC4001-4/tp/pull/14))
   * What it does: Provides a interface layer for the user to interact with. In this case, it handles the inputs from the user and displays outputs from the application to the user.
-  * Justification: This feature is a must have for a command line application. It prompts users on when to input commands and respond accordingly with feedbacks from the application.
+  * Justification: A must have for a command line application. It prompts users on when to input commands with feedbacks from the application.
   * Credits: Logic and design adapted from addressbook-level2 ([TextUi](https://github.com/se-edu/addressbook-level2/blob/master/src/seedu/addressbook/ui/TextUi.java))
   
 * New Feature: Regular Expressions (Regex) for different commands. E.g. Add, Update, Search, View, 
 ([#21](https://github.com/AY2021S1-TIC4001-4/tp/pull/21), [#39](https://github.com/AY2021S1-TIC4001-4/tp/pull/39), 
 [#43](https://github.com/AY2021S1-TIC4001-4/tp/pull/43), [#45](https://github.com/AY2021S1-TIC4001-4/tp/pull/45)).
   * What it does: User input is parsed and matched by Regex to determine the commands and arguments input
-  * Justification: This method of pattern matching of a string allows for optional inputs as well as efficient parsing to isolate arguments for processing. This also allows for good exception handling.
+  * Justification: Pattern matching of string inputs allows for optional inputs as well as efficient parsing to isolate arguments for processing and exception handling.
   * Credits: Some minor reference taken from addressbook-level2 ([Parser](https://github.com/se-edu/addressbook-level2/blob/master/src/seedu/addressbook/parser/Parser.java]))
      
 * New Feature: Added a Search Function ([#21](https://github.com/AY2021S1-TIC4001-4/tp/pull/21))
   * What it does: allows the user to search for transactions with a specified keyword.
-  * Justification: This feature is required for the user to view past transactions efficiently.
+  * Justification: Allows for the user to search and view specific past transactions.
   * Credits: Logic and design adapted from addressbook-level2 ([FindCommand](https://github.com/se-edu/addressbook-level2/blob/master/src/seedu/addressbook/commands/FindCommand.java))
   
 * New Feature: Added the Category Functionality ([#39](https://github.com/AY2021S1-TIC4001-4/tp/pull/39))
-  * What it does: Allows for the user to specify the category for a transaction when adding and or modifying. .
-  * Justification: This feature adds value by categorizing transactions with a String tag. This allows for sorting as well as a more insightful look at past transactions.  
+  * What it does: Allows for the user to specify the category for a transaction when adding and or modifying.
+  * Justification: This feature adds value by categorizing transactions with a String tag. Allows for sorting and provides a more insightful look at past transactions.  
 
 * Code contributed: [RepoSense Link](https://nus-tic4001-ay2021s1.github.io/tp-dashboard/#breakdown=true&search=adi-kd0021&sort=groupTitle&sortWithin=title&since=2020-08-14&timeframe=commit&mergegroup=&groupSelect=groupByRepos&checkedFileTypes=docs~functional-code~test-code~other&tabOpen=true&tabType=authorship&tabAuthor=adi-kd0021&tabRepo=AY2021S1-TIC4001-4%2Ftp%5Bmaster%5D&authorshipIsMergeGroup=false&authorshipFileTypes=docs~functional-code~test-code~other)
  
