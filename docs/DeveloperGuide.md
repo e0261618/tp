@@ -55,6 +55,8 @@ The ***Architecture Diagram*** shown gives an overview of the high-level design.
 
 `Constants` holds a collection of frequently used static messages used by multiple other components.
 
+<div style="page-break-after: always;"></div>
+
 The application then consists of four other components:
 
 - `UI`: The UI of NUS Expenses Tracker (NET).
@@ -62,12 +64,12 @@ The application then consists of four other components:
 - `Model`: Hold the data of NET in memory.
 - `Storage`: Read data from, and writes data to the hard disk.
 
-<div style="page-break-after: always;"></div>
-
 One example would be the `Storage` component which defines its API in `Storage.java` as well as exposes its functionality using the same class.
 
 ##### Component
 ![Component](images/TP-Design.png)
+
+<div style="page-break-after: always;"></div>
 
 ##### Storage Component
 ###### Storage(Load)
@@ -118,6 +120,8 @@ The *Budget View Sequence Diagram* shows how does components interact with each 
 
 ###### Add Command Sequence Diagram
 ![Sequence](images/Add Command Activity.png)
+
+<div style="page-break-after: always;"></div>
 
 ## Implementation
 This section describes some noteworthy details on how certain features were implemented.
@@ -221,6 +225,8 @@ To manage all expenses faster than a typical excel budget spreadsheet.
 
 ###### Use Case Diagram
 ![NUS Expenses Tracker - UC](images/NUSExpenseTrackerUCDiagram.png)
+
+<div style="page-break-after: always;"></div>
 
 ### Non Functional Requirements
 
