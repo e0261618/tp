@@ -100,6 +100,9 @@ Description: dinner Amount: $4.0 Date: 2020-09-09 Category: MISC <br/>
 Displaying : Every transaction after - 2020-09-08<br/>
 Above are all transaction entered<br/>
 ---------------------------------------------------<br/>
+
+<div style="page-break-after: always;"></div>
+
 <br/>
 Example 4: view /ed 2020-09-10 <br/>
 Output: <br/>
