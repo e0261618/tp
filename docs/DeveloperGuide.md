@@ -141,11 +141,12 @@ Step 2. User executes ```add Lunch at ...``` to add a new transaction. The ```ad
 
 ![Sample - Stage2](images/DeleteFeature_Stage2.png)
 
+<div style="page-break-after: always;"></div>
+
 Step 3. User executes ```delete 3``` command to delete the 3rd transaction in the Expenses Tracking Application. TransactionList will be left with 5 records after User delete successfully.
 
 ![Sample - Stage3](images/DeleteFeature_Stage3.png)
 
-<div style="page-break-after: always;"></div>
 
 ##### Report Feature
 
@@ -161,6 +162,8 @@ Step 1. The user launches the application for the first time. The TransactionLis
 Step 2. User executes ```add Lunch at ...``` to add a new transaction. The ```add``` command will save the record into TransactionList.
 
 ![Sample - Stage2](images/ReportFeature_Stage2.png)
+
+<div style="page-break-after: always;"></div>
 
 Step 3. After user enters multiple records in TransactionList, they will executes ```report /sd...``` command to generate the report with or without a time period.
 
