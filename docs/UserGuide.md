@@ -23,13 +23,15 @@ Welcome to Nus Expenses Tracker(NET). NET is an app for managing expenses, optim
 ```Generate Report```: Export data into an Excel file (.xlsx) containing a summary of transactions with an optional specified time period. <br/>
 ```Exit```: Exit NUSExpenses Tracker <br/>
 
+<div style="page-break-after: always;"></div>
+
 ### Help
 Format: help <br/>
 Example: help <br/>
 Output: <br/>
 ***************************************************<br/>
 add: Adds a transaction to the NUS Expenses Tracker. <br/>
-Parameters: DESCRIPTION $AMOUNT DATE... <br/>
+Parameters: DESCRIPTION $AMOUNT DATE <br/>
 Example: add Lunch at Com2 $4.50 14-Oct-2020 <br/>
 ***************************************************<br/>
 
@@ -57,7 +59,7 @@ Output: <br/>
 2.  Date: lime juice Description: 1.8 Amount: <br/>
 3.  Date: dinner Description: 5.6 Amount: <br/>
 ***************************************************<br/>
-The total amount you have spent so far is $10.90 <br/>
+The total amount you have spent so far is $10.90<br/>
 ***************************************************<br/>
 
 ### Delete
@@ -78,29 +80,32 @@ Output: <br/>
 1.  Description: lunch Amount: $3.0 Category: MISC  <br/>
 2.  Description: dinner Amount: $4.0 Date: 2020-09-09 Category: MISC  <br/>
 ***************************************************<br/>
-Displaying category: MISC <br/>
-Above are all transaction entered. <br/>
+Displaying Category: MISC<br/>
+Above are all transaction entered<br/>
 ***************************************************<br/>
+<br/>
 Example 2: view /sd 2020-09-08 /ed 2020-09-10 <br/>
 Output: <br/>
 1.  Description: dinner Amount: $4.0 Date: 2020-09-09 Category: MISC <br/>
 ***************************************************<br/>
-Displaying : 2020-09-08 - 2020-09-10 <br/>
-Above are all transaction entered. <br/>
+Displaying : 2020-09-08 - 2020-09-10<br/>
+Above are all transaction entered<br/>
 ***************************************************<br/>
+<br/>
 Example 3: view /sd 2020-09-08 <br/>
 Output: <br/>
 1.  Description: dinner Amount: $4.0 Date: 2020-09-09 Category: MISC <br/>
 ***************************************************<br/>
-Displaying : Every Transaction After 2020-09-08 <br/>
-Above are all transaction entered. <br/>
+Displaying : Every transaction after - 2020-09-08<br/>
+Above are all transaction entered<br/>
 ***************************************************<br/>
+<br/>
 Example 4: view /ed 2020-09-10 <br/>
 Output: <br/>
 1.  Description: dinner Amount: $4.0 Date: 2020-09-09 Category: MISC <br/>
 ***************************************************<br/>
-Displaying : Every Transaction Before 2020-09-10 <br/>
-Above are all transaction entered. <br/>
+Displaying : Every transaction before - 2020-09-10<br/>
+Above are all transaction entered<br/>
 ***************************************************<br/>
 
 ### Search
@@ -110,7 +115,7 @@ Output: <br/>
 1.  Description: dinner Amount: $4.0 Date: 2020-09-09 Category: MISC <br/>
 2.  Description:  dinner  Amount: $5.0 Date: 2020-09-24 Category: FOOD <br/>
 ***************************************************<br/>
-2 transactions listed! <br/>
+2 transactions listed. <br/>
 ***************************************************<br/>
 
 ### Add Budget
@@ -118,7 +123,7 @@ Format: budgetadd {category} {/description} {amount}<br/>
 Example: budgetadd daily /FOOD $20.00 <br/>
 Output: <br/>
 ***************************************************<br/>
-New Budget has been added<br/>
+New Budget has been added. <br/>
 ***************************************************<br/>
 
 ### View Budget
@@ -126,8 +131,8 @@ Format: budgetview <br/>
 Example: budgetview <br/>
 Output: <br/>
 CATEGORY: DAILY || DESCRIPTION: FOOD || Budget : $50.0 <br/>
- Current Spending TODAY for CATEGORY FOOD is $5.0 <br/>
- You expenses is on track. Good Job!
+Current Spending TODAY for CATEGORY FOOD is $5.0 <br/>
+You expenses is on track. Good Job! <br/>
 ***************************************************<br/>
 Above are all budgets entered. <br/>
 ***************************************************<br/>
