@@ -192,6 +192,8 @@ To manage all expenses faster than a typical excel budget spreadsheet.
 |`*`|v2.0|Student|make sure I input daily expenses|I can keep track of it|
 |`*`|v2.0|Student|make sure I input daily expenses|I can keep track of it|
 |`*`|v2.0|Student|view tips on saving money|have motivation to achieve my goal|
+|`*`|v3.0|Student|save all budget to a readable text file and load from it|I can keep track of the budget history.|
+
 
 :point_right: View [User Stories on our Trello Board](https://trello.com/b/2290RLsD/nusexpenseshelper "User Stories on Trello~")
 
