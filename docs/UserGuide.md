@@ -114,6 +114,7 @@ Example: search dinner <br/>
 Output: <br/>
 1.  Description: dinner Amount: $4.0 Date: 2020-09-09 Category: MISC <br/>
 2.  Description:  dinner  Amount: $5.0 Date: 2020-09-24 Category: FOOD <br/>
+<br/>
 ***************************************************<br/>
 2 transactions listed. <br/>
 ***************************************************<br/>
