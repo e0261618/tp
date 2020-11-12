@@ -8,15 +8,15 @@ NET is an app for managing expenses, optimized for use via a Command Line Interf
 * Initial Code Skeleton / Baseline([#1](https://github.com/AY2021S1-TIC4001-4/tp/pull/1), [#9](https://github.com/AY2021S1-TIC4001-4/tp/pull/9))
 
 * New Feature: User Interface (UI)([#14](https://github.com/AY2021S1-TIC4001-4/tp/pull/14))
-  * What it does: Provides a interface layer for the user to interact with. In this case, it handles the inputs from the user and displays outputs from the application to the user.
-  * Justification: Prompts users on when to input commands with feedbacks from the application.
+  * What it does: Provides a interface layer for the user to interact with. Handles inputs from the user and displays outputs.
+  * Justification: Prompts users on when to input commands with feedbacks.
   * Credits: Logic and design adapted from addressbook-level2 ([TextUi](https://github.com/se-edu/addressbook-level2/blob/master/src/seedu/addressbook/ui/TextUi.java))
   
 * New Feature: Regular Expressions (Regex) for different commands. E.g. Add, Update, Search, View, 
 ([#21](https://github.com/AY2021S1-TIC4001-4/tp/pull/21), [#39](https://github.com/AY2021S1-TIC4001-4/tp/pull/39), 
 [#43](https://github.com/AY2021S1-TIC4001-4/tp/pull/43), [#45](https://github.com/AY2021S1-TIC4001-4/tp/pull/45)).
   * What it does: User input is parsed and matched by Regex to determine the commands and arguments input
-  * Justification: Pattern matching of inputs allows for optional inputs as well as isolating arguments for processing and exception handling.
+  * Justification: Pattern matching of inputs allows for optional inputs and to isolate arguments for processing and exception handling.
   * Credits: Some minor reference taken from addressbook-level2 ([Parser](https://github.com/se-edu/addressbook-level2/blob/master/src/seedu/addressbook/parser/Parser.java]))
      
 * New Feature: Added a Search Function ([#21](https://github.com/AY2021S1-TIC4001-4/tp/pull/21))
