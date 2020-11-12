@@ -13,6 +13,7 @@
   * [Non-Functional Requirements](#Non-Functional-Requirements)
   * [Glossary](#Glossary)
 
+<div style="page-break-after: always;"></div>
 
 ## Setting Up and Getting Started
 :heavy_exclamation_mark: **Caution** Follow the steps in the following guide precisely. Things will not work out if you deviate in some steps.
@@ -38,6 +39,8 @@ If you plan to use Intellij IDEA (highly recommended):
 3. **Verify the setup:**
   * Run the `NusExpenses.java` and try a few commands.
   
+<div style="page-break-after: always;"></div>
+  
 ## Design
 
 ##### Architecture
@@ -58,6 +61,8 @@ The application then consists of four other components:
 - `Logic`: The command executor. 
 - `Model`: Hold the data of NET in memory.
 - `Storage`: Read data from, and writes data to the hard disk.
+
+<div style="page-break-after: always;"></div>
 
 One example would be the `Storage` component which defines its API in `Storage.java` as well as exposes its functionality using the same class.
 
@@ -80,6 +85,8 @@ to the decoding class.
 * Saving function will Encode the transaction detail and pass it back to storage
 to save to the file. 
 
+<div style="page-break-after: always;"></div>
+
 The *Sequence Diagram* below shows how the components interact with each other in the scenario where the user issues the command ```search keyword```
 
 ###### Search Command Sequence Diagram
@@ -90,6 +97,8 @@ The following *Object Diagram* gives an overview of which objects are accessed a
 ###### Search Command Object Diagram
 ![SearchCommand Object Diagram](images/SearchCommandObjectDiagram.png)
 
+<div style="page-break-after: always;"></div>
+
 The following *Sequence Diagram* shows how the components interact in the scenario where the user issues the `total` command.
 
 ###### Total Command Sequence Diagram
@@ -99,9 +108,13 @@ The *Budget View Object Diagram* gives an overview of which objects are accessed
 ###### BudgetView Object Diagram
 ![Sequence](images/ViewBudgetObjectDiagram.png)
 
+<div style="page-break-after: always;"></div>
+
 The *Budget View Sequence Diagram* shows how does components interact with each other in the scenario when user issues `budgetview` command.
 ###### BudgetView Sequence Diagram
 ![Sequence](images/ViewBudgetSequenceDiagram.png)
+
+<div style="page-break-after: always;"></div>
 
 ###### Add Command Sequence Diagram
 ![Sequence](images/Add Command Activity.png)
@@ -128,6 +141,7 @@ Step 3. User executes ```delete 3``` command to delete the 3rd transaction in th
 
 ![Sample - Stage3](images/DeleteFeature_Stage3.png)
 
+<div style="page-break-after: always;"></div>
 
 ##### Report Feature
 
@@ -155,6 +169,8 @@ In step 3, the application used an external library named **'Apache-POI'**. This
 The following activity diagram summarizes what happens when a user executes report command:
 
 ![Sample - Report Activity Diagram](images/Report%20Activity%20Diagram.png)
+
+<div style="page-break-after: always;"></div>
 
 ## Appendix: Requirements
 ### Product scope
@@ -196,6 +212,8 @@ To manage all expenses faster than a typical excel budget spreadsheet.
 
 
 :point_right: View [User Stories on our Trello Board](https://trello.com/b/2290RLsD/nusexpenseshelper "User Stories on Trello~")
+
+<div style="page-break-after: always;"></div>
 
 ### Use Cases
 
