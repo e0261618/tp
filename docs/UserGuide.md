@@ -62,6 +62,8 @@ Output: <br/>
 The total amount you have spent so far is $10.90<br/>
 ---------------------------------------------------<br/>
 
+<div style="page-break-after: always;"></div>
+
 ### Delete
 Format: delete {index number} - The index must be a positive integer 1, 2, 3,(...) <br/>
 Example: delete 1 <br/>
