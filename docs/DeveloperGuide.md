@@ -2,9 +2,9 @@
 * [Setting Up and Getting Started](#Setting-Up-and-Getting-Started)
 * [Design](#Design)
   * [Architecture](#Architecture)
-  * [UI component](#Component)
+  * [UI component](#UI-Component)
   * [Storage component](#Storage-Component)
-  * [Common classes](#Component)
+  * [Other component](#Other-Component)
 * [Implementation](#Implementation)
 * [Appendix: Requirements](#Appendix:-Requirements)
   * [Product scope](#Product-scope)
@@ -22,22 +22,22 @@ First, **fork** this repo, and **clone** the fork into your computer.
 If you plan to use Intellij IDEA (highly recommended):
 
 1. **Configure the JDK:**
-  * Ensure you have the correct JDK version installed in your computer.
-  * Open IntelliJ (if you are not in the welcome screen, click File → Close Project to close the existing project dialog first).
-  * Set up the correct JDK version for Gradle.
-   * Click Configure → Project Defaults → Project Structure
-   * Click New…​ and set it to the directory of the JDK.
+ * Ensure you have the correct JDK version installed in your computer.
+ * Open IntelliJ (if you are not in the welcome screen, click ```File → Close Project``` to close the existing project dialog first).
+ * Set up the correct JDK version for Gradle.
+  * Click ```Configure → Project Defaults → Project Structure```
+  * Click ```New…``` and set it to the directory of the JDK.
 2. **Import the project as a Gradle project:**
-  * IntelliJ IDEA by default has the Gradle plugin installed. If you have disabled it, go to File → Settings → Plugins to re-enable them.
-  * If your project involves GUI programming, similarly ensure the JavaFX plugin has not been disabled.
-  * Click Import Project (or Open or Import in newer version of Intellij).
-  * Locate the `build.gradle` file (not the root folder as you would do in a normal importing) and select it. Click OK.
-  * If asked, choose to Open as Project (not Open as File).
-  * Click OK to accept the default settings but do ensure that the selected version of Gradle JVM matches the JDK being used for the project.
-  * Wait for the importing process to finish (could take a few minutes).
-  * :heavy_exclamation_mark: **Note**: Importing a Gradle project is slightly different from importing a normal Java project.
+ * IntelliJ IDEA by default has the Gradle plugin installed. If you have disabled it, go to ```File → Settings → Plugins``` to re-enable them.
+ * If your project involves GUI programming, similarly ensure the JavaFX plugin has not been disabled.
+ * Click ```Import Project``` (or Open or Import in newer version of Intellij).
+ * Locate the ```build.gradle``` file (not the root folder as you would do in a normal importing) and select it. Click OK.
+ * If asked, choose to Open as Project (not Open as File).
+ * Click OK to accept the default settings but do ensure that the selected version of Gradle JVM matches the JDK being used for the project.
+ * Wait for the importing process to finish (could take a few minutes).
+ * :heavy_exclamation_mark: **Note**: Importing a Gradle project is slightly different from importing a normal Java project.
 3. **Verify the setup:**
-  * Run the `NusExpenses.java` and try a few commands.
+ * Run the ```java -jar [TIC4001-4][NUSExpensesTracker].jar``` and try a few commands.
   
 <div style="page-break-after: always;"></div>
   
@@ -48,7 +48,7 @@ If you plan to use Intellij IDEA (highly recommended):
 
 The ***Architecture Diagram*** shown gives an overview of the high-level design.
 
-`Main` has one class named `NusExpenses`. It would perform the following functions:
+`Main` has a class file named `NusExpenses`. It would perform the following functions:
 
 - At launch: Initialize the components in the correct sequence, and connect them up with each other.
 - At shut down / Exit: Shuts down the components and invokes save / cleanup methods where necessary.
@@ -66,7 +66,7 @@ The application then consists of four other components:
 
 One example would be the `Storage` component which defines its API in `Storage.java` as well as exposes its functionality using the same class.
 
-##### Component
+##### UI Component
 ![Component](images/TP-Design.png)
 
 <div style="page-break-after: always;"></div>
@@ -89,7 +89,8 @@ to save to the file.
 
 <div style="page-break-after: always;"></div>
 
-The *Sequence Diagram* below shows how the components interact with each other in the scenario where the user issues the command ```search keyword```
+##### Other Component
+The *Search Sequence Diagram* below shows how the components interact with each other in the scenario where the user issues the command ```search keyword```
 
 ###### Search Command Sequence Diagram
 ![SearchCommand Sequence Diagram](images/SearchSequenceDiagram.png)
@@ -118,8 +119,15 @@ The *Budget View Sequence Diagram* shows how does components interact with each 
 
 <div style="page-break-after: always;"></div>
 
+The following *Add Sequence Diagram* shows how the components interact with each other in the scenario the user uses the `add` command.
 ###### Add Command Sequence Diagram
 ![Sequence](images/Add Command Activity.png)
+
+<div style="page-break-after: always;"></div>
+
+The following *Delete Sequence Diagram* shows how the components interact with each other in the scenario the user uses the `delete` command.
+###### Delete Command Sequence Diagram
+![Sequence](images/DeleteCommandSequence.png)
 
 <div style="page-break-after: always;"></div>
 
